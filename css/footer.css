@@ -1,0 +1,207 @@
+body {
+    background: #F5F5F7;
+    ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, Verdana, sans-serif;
+}
+
+.footer {
+    padding-top: 50px;
+    background: #1D1D1F;
+    color: #fff;
+}
+
+.gioi-han-rong-footer {
+    margin-left: 157px;
+    margin-right: 157px;
+}
+
+.box-container-footer {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-footer-box {
+    padding-bottom: 50px;
+    border-bottom: 1px solid #4B4B4B;
+    margin-bottom: 30px;
+    display: flex;
+    width: 100%;
+}
+
+.pr-thuong-hieu-footer {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.logo-shopUcha {
+    width: 100%;
+}
+
+.revews-shopUcha {}
+
+.revews-shopUcha p {
+    letter-spacing: 0.3px;
+    font-size: 14px;
+    width: 304px;
+    color: #D2D2D7;
+}
+
+.logo-thongtin-ve-thuongmai {
+    position: relative;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.logo-thongtin-ve-thuongmai li {
+    position: relative;
+    margin-right: 14px;
+}
+
+.fa-brands {
+    transform: translate(-32px, 17px);
+    position: absolute;
+}
+
+.fa-facebook-f {
+    color: #0066CC;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.fa-mandalorian {
+    color: rgb(0, 166, 255);
+}
+
+.box-sanpham-footer {
+    width: 13%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-thongtin-footer {
+    width: 26%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-chinhsach-footer {
+    width: 19%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-diachi-footer {
+    width: 23.096%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.element-sanpham-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 61px;
+}
+
+.box-san123 {
+    display: flex;
+    flex-direction: column;
+}
+
+.element-thongtin-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 132px;
+}
+
+.element-chinhsach-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.element-diachi-footer,
+.element-lienhe-footer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 83px;
+}
+
+.element-87b620 {
+    display: flex;
+    width: 100%;
+}
+
+.element-87b620 ul {
+    padding: 0;
+    list-style: none;
+}
+
+.element-87b620 ul li {
+    margin-bottom: 10px;
+}
+
+.element-87b620 ul li a {
+    position: relative;
+    padding-bottom: 2px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #86868B;
+}
+
+.element-87b620 ul li a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background: #878793;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: top left;
+    transition: transform 0.4s ease;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.element-87b620 ul li a:hover::before {
+    transform: scaleX(1);
+}
+
+.element-87b624 p {
+    color: #86868B;
+    font-size: 13px;
+}
+
+.element-87b624 p a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #0066CC;
+}
+
+.title-sanpham-footer-1 {
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.thiet-ke {
+    padding-bottom: 30px;
+}
+
+.du-an {
+    margin: 0;
+    color: #86868B;
+}

@@ -1,0 +1,163 @@
+body {
+    background-color: var(--colorBr);
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --colorBr: #F9F6F4;
+    --colorLeft: #CCCCCC;
+}
+
+.all-control {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 290px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-box-control {
+    display: flex;
+    padding-top: 70px;
+}
+
+#login-notify-left {
+    width: 25%;
+    padding: 12px;
+    font-size: 16px;
+}
+
+#produc-item-right-iphone {
+    width: 75%;
+    padding-top: 29px;
+}
+.image012 {
+    width: 200px;
+}
+
+tr td {
+    width: 136px;
+    height: 70px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.ul_order {
+    padding: 0;
+}
+
+.admin_menu, .information_menu{
+   
+    border: 1px solid #000;
+    list-style-type: none;
+    padding: 10px;
+}
+.information_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.header-product {
+    position: fixed;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(98, 100, 102);
+}
+
+.header-01 {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header0 {
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 17px;
+
+}
+
+.header1 {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+.admin_menu {
+    background-color: rgb(98, 100, 102);
+    padding: 15px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+h1 {
+    font-size: 20px;
+    background-color: rgb(98, 100, 102);
+    color: rgb(234, 232, 232);
+    padding: 15px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    align-content: center;
+}
+table{
+    border-collapse: collapse;
+    padding-bottom: 80px;;
+}
+tr td{
+    text-align: center;
+    border: 1px solid rgb(202, 197, 197);
+}
+.title_sp{
+   text-align: right;
+}
+.title_sp th{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 16px;
+}
+.title_sp_1 th{
+    padding: 4px;
+}
+.bao_chuadky{
+    text-align: center;
+    background-color: #CCCCCC;
+    height: 900px;
+}
+a,.knot_order {
+    padding: 7px;
+    border-radius: 5px;
+    color: #f3eded;
+    text-decoration: none;
+    transition: 0.5s ease;
+    border: none;
+}
+.update_02,.knot_order{
+    background-color: rgb(66, 181, 230)
+}
+.update_02:hover,.knot_order:hover{
+    background-color: rgb(29, 124, 165);
+    color: #fff;
+}
+.delete_01:hover{
+    color: #fff;
+    background-color: rgb(178, 32, 32);
+}
+.delete_01{
+    background-color: rgb(240, 86, 86);
+}
+.update{
+    margin-top: 30px;
+}
+
