@@ -14,7 +14,7 @@ try {
 // } else {
 //     echo "Kết nối thành công";
 // }
-
+// ghi chu
 function phanTrangIphone($search, $item_per_page, $current_page)
 {
     try {
